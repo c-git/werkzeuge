@@ -2,3 +2,11 @@
 resolver = "2"
 
 members = ["crates/snake_case"]
+
+[workspace.dependencies]
+clap = { version = "4.4.11", features = [
+    "cargo",
+    "derive",
+    "env",
+    "wrap_help",
+] }
