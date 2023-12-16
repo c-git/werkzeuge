@@ -5,6 +5,8 @@
 #![forbid(unsafe_code)]
 //! Converts text into snake case
 
+use convert_case::{Case, Casing};
+
 mod cli;
 
 pub use cli::Cli;
@@ -15,5 +17,5 @@ pub fn run(cli: &Cli) -> String {
 }
 
 fn convert_to_snake_case(org_str: &str) -> String {
-    todo!()
+    org_str.to_case(Case::Snake)
 }

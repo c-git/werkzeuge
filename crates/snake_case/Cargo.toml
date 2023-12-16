@@ -9,6 +9,7 @@ edition = "2021"
 [dependencies]
 anyhow.workspace = true
 clap.workspace = true
+convert_case.workspace = true
 log.workspace = true
 log4rs.workspace = true
 one_log.workspace = true
