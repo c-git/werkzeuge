@@ -3,6 +3,8 @@ My Tools Repo - Small monorepo for my small utility programs.
 It is setup as a cargo workspace to facilitate CI and sharing between crates.
 See Cargo.toml description for each project to see what it is about or if it's a bit more complicated I'll try to add a readme in the project folder.
 
+If you want to install a tool after cloning the repo navigate to the tools folder and use `cargo install --path .`
+
 ## License
 
 All code in this repository is dual-licensed under either:
