@@ -1,5 +1,7 @@
-# rust-crate-template
-Intended to be used as a starter for a crate
+# Werkzeuge
+My Tools Repo - Small monorepo for my small utility programs.
+It is setup as a cargo workspace to facilitate CI and sharing between crates.
+See Cargo.toml description for each project to see what it is about or if it's a bit more complicated I'll try to add a readme in the project folder.
 
 ## License
 
