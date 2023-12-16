@@ -15,3 +15,4 @@ convert_case = "0.6.0"
 log = "0.4.20"
 log4rs = "1.2.0"
 one_log = { version = "*", path = "crates/one_log" }
+regex = "1.10.2"

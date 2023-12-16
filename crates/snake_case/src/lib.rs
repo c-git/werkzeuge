@@ -10,6 +10,7 @@ use convert_case::{Case, Casing};
 mod cli;
 
 pub use cli::Cli;
+use regex::Regex;
 
 /// Runs the body of the logic
 pub fn run(cli: &Cli) -> String {
@@ -17,5 +18,6 @@ pub fn run(cli: &Cli) -> String {
 }
 
 fn convert_to_snake_case(org_str: &str) -> String {
-    org_str.to_case(Case::Snake)
+    let re = Regex::new("[^0-9a-zA-Z_ ]").unwrap();
+    re.replace_all(org_str, "").to_case(Case::Snake)
 }
