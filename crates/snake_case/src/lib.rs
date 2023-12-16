@@ -10,7 +10,10 @@ mod cli;
 pub use cli::Cli;
 
 /// Runs the body of the logic
-pub fn run(cli: &Cli) -> anyhow::Result<String> {
-    // TODO: Conversion
-    Ok(cli.org_str.clone())
+pub fn run(cli: &Cli) -> String {
+    convert_to_snake_case(&cli.org_str)
+}
+
+fn convert_to_snake_case(org_str: &str) -> String {
+    todo!()
 }
