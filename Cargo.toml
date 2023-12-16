@@ -4,9 +4,13 @@ resolver = "2"
 members = ["crates/snake_case", "crates/one_log"]
 
 [workspace.dependencies]
+anyhow = "1.0.75"
 clap = { version = "4.4.11", features = [
     "cargo",
     "derive",
     "env",
     "wrap_help",
 ] }
+log = "0.4.20"
+log4rs = "1.2.0"
+one_log = { version = "*", path = "crates/one_log" }
