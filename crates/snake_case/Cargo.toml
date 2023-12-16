@@ -14,3 +14,6 @@ log.workspace = true
 log4rs.workspace = true
 one_log.workspace = true
 regex.workspace = true
+
+[dev-dependencies]
+rstest.workspace = true
