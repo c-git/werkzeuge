@@ -1,7 +1,7 @@
 [workspace]
 resolver = "2"
 
-members = ["crates/snake_case", "crates/one_log"]
+members = ["crates/snake_case", "crates/one_log", "crates/google_slides_speaker_notes_extraction"]
 
 [workspace.dependencies]
 anyhow = "1.0.75"

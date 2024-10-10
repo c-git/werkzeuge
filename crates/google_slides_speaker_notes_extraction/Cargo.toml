@@ -1,0 +1,6 @@
+[package]
+name = "google_slides_speaker_notes_extraction"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
