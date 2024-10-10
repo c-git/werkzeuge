@@ -1,4 +1,5 @@
 [package]
+# TODO 4: Remove this crate, using environment variables to chose the log level is better
 name = "one_log"
 version = "0.1.0"
 edition = "2021"
