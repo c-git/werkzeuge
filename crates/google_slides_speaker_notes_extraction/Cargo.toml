@@ -7,5 +7,5 @@ edition = "2021"
 anyhow.workspace = true
 clap.workspace = true
 regex.workspace = true
-tracing = "0.1.40"
-tracing-subscriber = "0.3.18"
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
