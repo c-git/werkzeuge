@@ -1,8 +1,8 @@
 [package]
 name = "snake_case"
-description = "Converts its input into snake case"
 version = "0.1.0"
 edition = "2021"
+description = "Converts its input into snake case"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -12,7 +12,6 @@ clap.workspace = true
 convert_case.workspace = true
 log.workspace = true
 log4rs.workspace = true
-one_log.workspace = true
 regex.workspace = true
 
 [dev-dependencies]

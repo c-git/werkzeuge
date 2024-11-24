@@ -1,7 +1,7 @@
 [workspace]
 resolver = "2"
 
-members = ["crates/snake_case", "crates/one_log"]
+members = ["crates/snake_case"]
 
 [workspace.dependencies]
 anyhow = "1.0.75"
@@ -9,7 +9,6 @@ clap = { version = "4.4.11", features = ["cargo", "derive", "env", "wrap_help"] 
 convert_case = "0.6.0"
 log = "0.4.20"
 log4rs = "1.2.0"
-one_log = { version = "*", path = "crates/one_log" }
 regex = "1.10.2"
 rstest = "0.18.2"
 tracing = "0.1.40"
