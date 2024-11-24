@@ -10,9 +10,9 @@ description = "Converts its input into snake case"
 anyhow.workspace = true
 clap.workspace = true
 convert_case.workspace = true
-log.workspace = true
-log4rs.workspace = true
 regex.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
 
 [dev-dependencies]
 rstest.workspace = true
